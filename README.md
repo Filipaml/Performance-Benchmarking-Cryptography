@@ -7,9 +7,9 @@ The analysis focuses on the performance of symmetric encryption, asymmetric encr
 
 
 ## Technical Stack
-* [cite_start]**Language:** Python 3.11.7 [cite: 164]
-* [cite_start]**Libraries:** `cryptography.hazmat`, `pandas`, and `matplotlib` [cite: 166]
-* [cite_start]**Experimental Setup:** macOS-14.3.1-arm64 (Apple Silicon) [cite: 161]
+* **Language:** Python 3.11.7
+* **Libraries:** `cryptography.hazmat`, `pandas`, and `matplotlib`
+* **Experimental Setup:** macOS-14.3.1-arm64 (Apple Silicon)
 
 
 ## Implemented Algorithms
@@ -36,7 +36,7 @@ Function: Generation of fixed-size 256-bit hash digests
 Efficiency: SHA-256 proved to be the fastest mechanism, often taking half the time required by AES for the same file sizes
 
 ## Experimental Results
-[cite_start]The following table shows the mean execution time (in microseconds) for each algorithm, based on 100 iterations per file size[cite: 167]:
+The following table shows the mean execution time (in microseconds) for each algorithm, based on 100 iterations per file size:
 
 | File Size (Bytes) | AES Encryption (µs) | AES Decryption (µs) | RSA Encryption (µs) | RSA Decryption (µs) | SHA-256 Digest (µs) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
